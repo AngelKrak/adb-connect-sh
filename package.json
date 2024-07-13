@@ -1,0 +1,39 @@
+{
+  "name": "adb-connect-sh",
+  "version": "1.0.0",
+  "description": "Conecta dispositivos Android a través de ADB y multicast DNS utilizando depuración inalámbrica o por cable (versión Bash).",
+  "bin": {
+    "adb-connect-sh": "./cli.sh"
+  },
+  "scripts": {
+    "start": "sh ./conectar_adb_wifi.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AngelKrak/adb-connect-sh"
+  },
+  "keywords": [
+    "Android",
+    "adb",
+    "Conexión",
+    "Emparejamiento",
+    "Red",
+    "WiFi",
+    "Multicast DNS",
+    "Android Studio",
+    "wireless",
+    "debugging",
+    "adb pair",
+    "adb connect",
+    "adb wifi",
+    "adb wireless debugging",
+    "bash",
+    "shell"
+  ],
+  "author": "AngelKrak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AngelKrak/adb-connect-sh/issues"
+  },
+  "homepage": "https://github.com/AngelKrak/adb-connect-sh#readme"
+}
